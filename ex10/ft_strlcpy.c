@@ -6,11 +6,11 @@
 /*   By: olarseni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/30 20:47:14 by olarseni          #+#    #+#             */
-/*   Updated: 2024/06/02 18:51:53 by olarseni         ###   ########.fr       */
+/*   Updated: 2024/06/06 04:52:58 by olarseni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -48,6 +48,7 @@ int	main(int count, char **args)
 	if (count == 1)
 		return (1);
 	size = 500;
-	printf("Size: %i\nStr copied: %s\n", ft_strlcpy(dest, *(args + 1), size), dest);
+	printf("Size: %i\nStr copied: %s\n", 
+	ft_strlcpy(dest, *(args + 1), size), dest);
 	return (0);
 }*/
